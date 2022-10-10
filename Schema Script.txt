@@ -19,7 +19,7 @@ to_date date
 
 Employees
 -
-emp_no date pk
+emp_no int pk
 birth_date date
 first_name varchar
 last_name varchar
