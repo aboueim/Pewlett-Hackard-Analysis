@@ -29,11 +29,11 @@ The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engi
 1. The number of employees eligible for mentorship program by title:
 
 	--Count of eligible mentors
-	SELECT COUNT(emp_no), title
-	INTO mentorship_titles
-	FROM mentorship_eligibility
-	GROUP BY title
-	ORDER BY count DESC
+	-SELECT COUNT(emp_no), title
+	-INTO mentorship_titles
+	-FROM mentorship_eligibility
+	-GROUP BY title
+	-ORDER BY count DESC
 
 2. Number of retiring employees per department and title (creates a table to store deprtments and titles data and then counts on employee numbers):
 
