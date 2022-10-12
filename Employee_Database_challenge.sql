@@ -30,7 +30,7 @@ SELECT COUNT(emp_no), title
 INTO retiring_titles
 FROM unique_titles
 GROUP BY title
-ORDER BY count DESC
+ORDER BY count DESC;
 
 
 -- Create a Mentorship Eligibility Table
@@ -89,4 +89,4 @@ Summary PArt
 		INTO retiring_dept_titles
 		FROM retire_dept_titles
 		GROUP BY dept_name, title
-		ORDER BY count DESC
+		ORDER BY count DESC;
