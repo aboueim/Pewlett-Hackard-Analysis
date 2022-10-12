@@ -7,8 +7,8 @@ A manager at Pewlett-Hackard asked us to prepare two reports to help them identi
 ## Results
 
 - Overall, 133,776 (from retirement_titles.cdv) employees could potentially retire at Pewlett-Hackard given their birth date and history of employment at the company.
-- 72,458 (from unique_titles.csv) of employees currently working at Pewlett-Hackard are about to retire from their work.
-- The retiring employees occupy 7 positions including Senior Engineer, Senior Staff, Engineer, Staff, Technique Leader, Assistant Engineer, and Manager.
+- However, 72,458 (from unique_titles.csv) of these employees currently work at Pewlett-Hackard and are about to retire from their work.
+- The retiring employees occupy 7 roles including Senior Engineer, Senior Staff, Engineer, Staff, Technique Leader, Assistant Engineer, and Manager.
 - Senior engineers (25916 employees) and Senior Staffs (24926 employees) account for slightly more than %70 of retiring employees.
 - 1549 employees who still work at Pewlett-Hackard are eligible for mentorship program.
 
@@ -19,9 +19,11 @@ A manager at Pewlett-Hackard asked us to prepare two reports to help them identi
 Given the results obtained, too many positions for 7 roles including Senior Engineer, Senior Staff, Engineer, Staff, Technique Leader, Assistant Engineer, and Manager will open in the near future. Majority of vacancies are for Senior Engineer and Senior Staff with 25916 and 24926 new opennings and thus may be of higher priority for new recruitments or successions. Of course, the high number of retirement in other roles also makes requires due attention. For example, filling leadership roles (technique leader with 3603 retiring employees) may also should be considered as a priority given the impact these roles have on firm performance.
 
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engineers, 29 Assisstant engineers, 155 Staff, and 77 Technique Leaders are eligible for mentorship programs, while there is no manager eligible for this program. Accordingly, except for manager role, there are roughly 50 retiring employees per each employee eligible for the mentorship program.
 
 
+Below I provided two additional queries supporting my analysis for the upcoming "silver tsunami" at Pewlett-Hackard:
 
+1. 
