@@ -37,7 +37,7 @@ The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engi
 
 2. Number of retiring employees per department and title (creates a table to store deprtments and titles data and then counts on employee numbers):
 
-	--create a retirement titles based on departments
+	--create a retirement titles based on departments\
 	SELECT e.emp_no,\
 		e.first_name,\
 		e.last_name,\
