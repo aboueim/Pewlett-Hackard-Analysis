@@ -42,7 +42,7 @@ The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engi
 		e.first_name,\
 		e.last_name,\
 		d.dept_name,\
-		ti.title\
+		ti.title
 
 	INTO retire_dept_titles\
 	FROM employees as e\
