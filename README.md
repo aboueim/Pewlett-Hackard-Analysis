@@ -55,7 +55,7 @@ ON e.emp_no = ti.emp_no\
 WHERE (de.to_date = '9999-01-01')\
 ORDER BY emp_no;\
 
--- Number of retiring employees per depatment and title
+-- Number of retiring employees per depatment and title\
 SELECT COUNT(emp_no), dept_name, title\
 INTO retiring_dept_titles\
 FROM retire_dept_titles\
