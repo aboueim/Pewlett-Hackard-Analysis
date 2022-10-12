@@ -24,7 +24,7 @@ Given the results obtained, too many positions for 7 roles including Senior Engi
 The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engineers, 29 Assisstant engineers, 155 Staff, and 77 Technique Leaders are eligible for mentorship programs, while there is no manager eligible for this program. Accordingly, except for manager role, there are roughly 50 retiring employees per each employee eligible for the mentorship program.
 
 
-Below I provided two additional queries supporting my analysis for the upcoming "silver tsunami" at Pewlett-Hackard:
+**QUERIES**: Below I provided two additional queries supporting my analysis for the upcoming "silver tsunami" at Pewlett-Hackard:
 
 1. The number of employees eligible for mentorship program by title:
 
