@@ -26,4 +26,39 @@ The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engi
 
 Below I provided two additional queries supporting my analysis for the upcoming "silver tsunami" at Pewlett-Hackard:
 
-1. 
+1. The number of employees eligible for mentorship program by title:
+
+--Count of eligible mentors
+SELECT COUNT(emp_no), title
+INTO mentorship_titles
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY count DESC
+
+2. Number of retiring employees per department and title (creates a table to store deprtments and titles data and then counts on employee numbers):
+
+--create a retirement titles based on departments
+SELECT e.emp_no,
+	e.first_name,
+	e.last_name,
+	d.dept_name,
+	ti.title
+
+INTO retire_dept_titles
+FROM employees as e
+LEFT JOIN dept_emp as de
+ON e.emp_no = de.emp_no
+LEFT JOIN departments as d
+ON de.dept_no = d.dept_no
+INNER JOIN titles as ti
+ON e.emp_no = ti.emp_no
+WHERE (de.to_date = '9999-01-01')
+ORDER BY emp_no;
+
+SELECT COUNT(emp_no), dept_name, title
+INTO retiring_dept_titles
+FROM retire_dept_titles
+GROUP BY dept_name, title
+ORDER BY count DESC
+
+
