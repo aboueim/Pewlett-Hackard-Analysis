@@ -53,13 +53,13 @@ The results show that there are 529 Senior Engineers, 569 Seniro Staff, 190 Engi
 	INNER JOIN titles as ti\
 	ON e.emp_no = ti.emp_no\
 	WHERE (de.to_date = '9999-01-01')\
-	ORDER BY emp_no;\
+	ORDER BY emp_no;
 
 	-- Number of retiring employees per depatment and title\
 	SELECT COUNT(emp_no), dept_name, title\
 	INTO retiring_dept_titles\
 	FROM retire_dept_titles\
 	GROUP BY dept_name, title\
-	ORDER BY count DESC\
+	ORDER BY count DESC;
 
 
